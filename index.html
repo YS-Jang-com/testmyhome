@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORMA — Creative Digital Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">FORMA</div>
+      <div class="loader-bar"><div class="loader-fill" id="loader-fill"></div></div>
+      <div class="loader-num" id="loader-num">0</div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">FORMA</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta">Start a project ↗</button>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#work" class="mobile-link">Work</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#studio" class="mobile-link">Studio</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <div class="mobile-footer">Seoul · Available for 2025 projects</div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">Creative Studio · Seoul · Est. 2013</div>
+      <h1 class="hero-headline">
+        <span class="line reveal" data-delay="0">We build</span>
+        <span class="line reveal accent" data-delay="100">bold</span>
+        <span class="line reveal" data-delay="200">digital</span>
+        <span class="line reveal" data-delay="300">things.</span>
+      </h1>
+      <p class="hero-sub reveal" data-delay="400">
+        Brand identities, web experiences, and product design<br>
+        for companies that refuse to be ordinary.
+      </p>
+      <div class="hero-actions reveal" data-delay="500">
+        <button class="btn-primary magnetic">See our work</button>
+        <button class="btn-ghost">How we work <span class="arrow">→</span></button>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat reveal" data-delay="600">
+        <div class="stat-num" data-target="140">0</div>
+        <div class="stat-label">Projects shipped</div>
+      </div>
+      <div class="stat reveal" data-delay="700">
+        <div class="stat-num" data-target="12">0</div>
+        <div class="stat-label">Years active</div>
+      </div>
+      <div class="stat reveal" data-delay="800">
+        <div class="stat-num" data-target="98">0</div>
+        <div class="stat-label">Client retention %</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <div class="marquee-inner" id="marquee1">
+        <span>Brand Identity</span><span class="dot">·</span>
+        <span>Web Design</span><span class="dot">·</span>
+        <span>Product Design</span><span class="dot">·</span>
+        <span>Motion Graphics</span><span class="dot">·</span>
+        <span>UI Systems</span><span class="dot">·</span>
+        <span>Design Strategy</span><span class="dot">·</span>
+        <span>Brand Identity</span><span class="dot">·</span>
+        <span>Web Design</span><span class="dot">·</span>
+        <span>Product Design</span><span class="dot">·</span>
+        <span>Motion Graphics</span><span class="dot">·</span>
+        <span>UI Systems</span><span class="dot">·</span>
+        <span>Design Strategy</span><span class="dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-header">
+      <div class="section-tag reveal">Selected Work</div>
+      <h2 class="section-title reveal">Recent<br><em>projects</em></h2>
+    </div>
+    <div class="work-grid">
+      <div class="work-item reveal" data-delay="0">
+        <div class="work-img" style="background:#0e0e0e;">
+          <div class="work-placeholder">
+            <svg viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="20" y="20" width="160" height="100" rx="4" stroke="#e84b1a" stroke-width="1" stroke-dasharray="4 4"/>
+              <text x="100" y="75" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="28" fill="#e84b1a" letter-spacing="4">AXIOM</text>
+              <text x="100" y="95" text-anchor="middle" font-family="Outfit, sans-serif" font-size="10" fill="rgba(245,240,232,0.4)" letter-spacing="2">BRAND IDENTITY</text>
+            </svg>
+          </div>
+          <div class="work-overlay">
+            <span>View Project ↗</span>
+          </div>
+        </div>
+        <div class="work-info">
+          <div class="work-title">Axiom Finance</div>
+          <div class="work-tags"><span>Brand</span><span>Web</span></div>
+        </div>
+      </div>
+      <div class="work-item reveal" data-delay="150">
+        <div class="work-img" style="background:#1a0a00;">
+          <div class="work-placeholder">
+            <svg viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="70" r="45" stroke="#f5a623" stroke-width="1"/>
+              <circle cx="100" cy="70" r="30" stroke="#f5a623" stroke-width="0.5" stroke-dasharray="2 3"/>
+              <text x="100" y="75" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="20" fill="#f5a623" letter-spacing="3">SOLARA</text>
+            </svg>
+          </div>
+          <div class="work-overlay"><span>View Project ↗</span></div>
+        </div>
+        <div class="work-info">
+          <div class="work-title">Solara Energy</div>
+          <div class="work-tags"><span>Identity</span><span>Motion</span></div>
+        </div>
+      </div>
+      <div class="work-item reveal" data-delay="300">
+        <div class="work-img" style="background:#050e1a;">
+          <div class="work-placeholder">
+            <svg viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30" y="30" width="60" height="80" rx="2" stroke="#4a9eff" stroke-width="1"/>
+              <rect x="110" y="50" width="60" height="60" rx="2" stroke="#4a9eff" stroke-width="0.5"/>
+              <line x1="90" y1="70" x2="110" y2="70" stroke="#4a9eff" stroke-width="0.5" stroke-dasharray="2 2"/>
+              <text x="100" y="125" text-anchor="middle" font-family="Outfit, sans-serif" font-size="9" fill="rgba(74,158,255,0.6)" letter-spacing="3">PRODUCT DESIGN</text>
+            </svg>
+          </div>
+          <div class="work-overlay"><span>View Project ↗</span></div>
+        </div>
+        <div class="work-info">
+          <div class="work-title">Novu Platform</div>
+          <div class="work-tags"><span>Product</span><span>UI/UX</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services-inner">
+      <div class="services-left">
+        <div class="section-tag reveal">What we do</div>
+        <h2 class="section-title reveal">Our<br><em>services</em></h2>
+        <p class="services-desc reveal">We design and build the digital layer of ambitious brands — from visual identity to shipped product.</p>
+      </div>
+      <div class="services-list">
+        <div class="service-item reveal" data-delay="0">
+          <div class="service-num">01</div>
+          <div class="service-body">
+            <div class="service-title">Brand & Identity</div>
+            <div class="service-desc">Visual systems that hold up across every touchpoint — from business cards to billboard campaigns. Logo, typography, color, motion.</div>
+          </div>
+          <div class="service-arrow">↗</div>
+        </div>
+        <div class="service-item reveal" data-delay="100">
+          <div class="service-num">02</div>
+          <div class="service-body">
+            <div class="service-title">Web Experience</div>
+            <div class="service-desc">Performance-first websites with interactions that feel considered, not decorative. We ship fast and maintain long-term.</div>
+          </div>
+          <div class="service-arrow">↗</div>
+        </div>
+        <div class="service-item reveal" data-delay="200">
+          <div class="service-num">03</div>
+          <div class="service-body">
+            <div class="service-title">Product Design</div>
+            <div class="service-desc">SaaS dashboards and mobile apps built with real users in mind. Research, wireframes, design system, handoff.</div>
+          </div>
+          <div class="service-arrow">↗</div>
+        </div>
+        <div class="service-item reveal" data-delay="300">
+          <div class="service-num">04</div>
+          <div class="service-body">
+            <div class="service-title">Motion & 3D</div>
+            <div class="service-desc">Brand films, UI micro-interactions, and 3D renders that bring static identities to life on screen.</div>
+          </div>
+          <div class="service-arrow">↗</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section class="about-strip" id="studio">
+    <div class="about-text reveal">
+      We're a small team with big ambitions. We believe the best digital work comes from caring deeply about the details that most people skip.
+    </div>
+    <div class="about-cta reveal" data-delay="200">
+      <div class="about-avatar-row">
+        <div class="avatar" style="background:#e84b1a;">JK</div>
+        <div class="avatar" style="background:#4a9eff;">SL</div>
+        <div class="avatar" style="background:#f5a623;">MY</div>
+        <div class="avatar-more">+5</div>
+      </div>
+      <div class="about-label">8 people. 1 shared obsession.</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <div class="section-tag reveal">Get in touch</div>
+        <h2 class="contact-heading reveal">
+          Let's make<br><span>something</span><br>great.
+        </h2>
+        <div class="contact-details reveal" data-delay="200">
+          <div class="contact-line">
+            <span class="cl-label">Email</span>
+            <span class="cl-val">hello@forma.studio</span>
+          </div>
+          <div class="contact-line">
+            <span class="cl-label">Based in</span>
+            <span class="cl-val">Seoul, South Korea</span>
+          </div>
+          <div class="contact-line">
+            <span class="cl-label">Availability</span>
+            <span class="cl-val avail">Open for 2025 ✦</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right reveal" data-delay="300">
+        <div class="form-group">
+          <label>Your name</label>
+          <input type="text" placeholder="Jane Smith" />
+        </div>
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" placeholder="jane@company.com" />
+        </div>
+        <div class="form-group">
+          <label>Tell us about your project</label>
+          <textarea placeholder="We're looking for a partner to redesign our brand..."></textarea>
+        </div>
+        <button class="submit-btn" id="submit-btn">
+          <span class="btn-text">Send message</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">FORMA</div>
+    <div class="footer-copy">© 2025 Forma Studio. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Behance</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
