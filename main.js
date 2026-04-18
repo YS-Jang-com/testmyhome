@@ -102,6 +102,7 @@ function initReveal() {
 function animateCounters() {
   document.querySelectorAll('.stat-num').forEach(el => {
     const target = parseInt(el.dataset.target, 10);
+    if (isNaN(target)) return;
     let current = 0;
     const step = target / 60;
     const timer = setInterval(() => {
