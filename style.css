@@ -101,7 +101,7 @@ body:hover .cursor-follower { opacity: 1; }
   display: flex; gap: 2.5rem; list-style: none;
 }
 .nav-links a {
-  font-size: 13px; color: var(--muted);
+  font-size: 26px; color: var(--muted);
   text-decoration: none; letter-spacing: 0.05em;
   position: relative; transition: color 0.2s;
 }
