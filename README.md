@@ -1,6 +1,6 @@
-# FORMA Studio — Landing Page Demo
+# YS Jang Personal Home
 
-Claude Code로 생성한 크리에이티브 스튜디오 랜딩 페이지입니다.
+Claude Code로 생성한 개인 홈 랜딩 페이지입니다.
 
 ## 기능
 
