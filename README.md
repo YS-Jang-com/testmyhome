@@ -48,7 +48,7 @@ gh repo create forma-landing --public --source=. --push
 # Settings > Pages > Deploy from branch > main > / (root) > Save
 ```
 
-배포 후 주소: `https://<YOUR_USERNAME>.github.io/forma-landing/`
+배포 후 주소: `[https://ys-jang-com.github.io/testmyhome/]`
 
 ## Claude Code로 만든 방법
 
