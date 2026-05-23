@@ -24,31 +24,9 @@ landing/
 └── README.md
 ```
 
-## GitHub Pages 배포 방법
+## Landing page URL
 
-```bash
-# 1. 리포지토리 생성 (gh CLI 사용)
-gh repo create forma-landing --public
-
-# 2. 파일 업로드 및 푸시
-git init
-git add .
-git commit -m "Initial commit: Forma landing page"
-git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/forma-landing.git
-git push -u origin main
-
-# 3. GitHub Pages 활성화
-gh browse  # 브라우저에서 Settings > Pages > main branch 선택
-```
-
-또는 GitHub Pages 자동 활성화:
-```bash
-gh repo create forma-landing --public --source=. --push
-# Settings > Pages > Deploy from branch > main > / (root) > Save
-```
-
-배포 후 주소: `[https://ys-jang-com.github.io/testmyhome/]`
+[https://ys-jang-com.github.io/testmyhome/]
 
 ## Claude Code로 만든 방법
 
